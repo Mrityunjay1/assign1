@@ -1,11 +1,10 @@
 import React from 'react'
 import {Stack,Text,Heading} from "@chakra-ui/layout"
-import {Image} from '@chakra-ui/image'
 import {Link} from '@chakra-ui/react'
 export default function RecentPost({post}) {
     return (
         <Stack width="30rem" boxShadow="lg" borderRadius="lg" overflow="hidden" mt='10'>
-            <Image src={post.imgurl} />
+            <img src="https://bit.ly/3xDyZa1" alt="New" />
             <Stack p="4">
                 <Text>{post.date}</Text>
                 <Stack>
