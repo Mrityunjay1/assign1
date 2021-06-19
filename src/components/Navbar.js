@@ -6,9 +6,9 @@ export default function Navbar() {
     return (
         <Container maxW="1300px" display="flex" padding="4" justifyContent="space-between">
             <Flex align="center">
-                <Text fontSize="24" fontFamily="Circular Std Book" fontWeight="900">Omega</Text>
+                <Text fontSize="24" fontFamily="Lato" fontWeight="900">Omega</Text>
             </Flex>
-            <Flex align="center" direction="row" fontFamily="Lato" fontWeight="400">
+            <Flex align="center" direction="row" fontFamily="Lato" fontWeight="500">
                 <Text mr="5" fontSize="16">Home</Text>
                 <Text mr="5" fontSize="16">About</Text>
                 <Text mr="5" fontSize="16">Contact us</Text>
