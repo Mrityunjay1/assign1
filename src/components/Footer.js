@@ -1,16 +1,16 @@
 import React from 'react'
 import { Text, Heading, Box, Grid} from '@chakra-ui/layout'
 import { Button } from '@chakra-ui/button'
-import { List, ListItem, UnorderedList } from "@chakra-ui/react"
+import {ListItem, UnorderedList } from "@chakra-ui/react"
 
 export default function Footer() {
     return (
         <Box bgColor="black"
             backgroundRepeat="no-repeat" bgPosition="center" width="100%" mt="70" align="center" p="100">
-            <Heading align="center" color="white" fontSize="80" pt="45" fontFamily="Circular Std Book" fontWeight="700">Ready to launch?</Heading>
-            <Text color="white" align="center" fontSize="21" color="gray" pt="50" fontFamily="Circular Std Book" fontWeight="900" maxW="515">Are you interested to join our team? Check out our job openings and apply on your suitable role.</Text>
-            <Button bgColor="#f04037" size="lg" mt="20" ><Text fontSize="21"fontFamily="Circular Std Book" fontWeight="700">Get Omega Now</Text></Button>
-            <Grid templateColumns="repeat(5, 1fr)" gap={6} mt="20" align="center"  fontFamily="Circular Std Book">
+            <Heading align="center" color="white" fontSize="80" pt="45" fontFamily="Lato" fontWeight="700">Ready to launch?</Heading>
+            <Text color="white" align="center" fontSize="21" color="gray" pt="50" fontFamily="Lato" fontWeight="700" maxW="515">Are you interested to join our team? Check out our job openings and apply on your suitable role.</Text>
+            <Button bgColor="#f04037" size="lg" mt="20" ><Text fontSize="21"fontFamily="Lato" fontWeight="700">Get Omega Now</Text></Button>
+            <Grid templateColumns="repeat(5, 1fr)" gap={6} mt="20" align="center"  fontFamily="Lato">
                 <Box w="100%" h="10" >
                     <Text color='white' fontSize="25" fontWeight="700">Omega</Text></Box>
                 <Box w="100%" >

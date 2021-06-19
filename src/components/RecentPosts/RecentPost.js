@@ -8,8 +8,8 @@ export default function RecentPost({post}) {
             <Stack p="4">
                 <Text>{post.date}</Text>
                 <Stack>
-                    <Heading fontFamily="Circular Std Book" fontWeight="700" fontSize="21">{post.title}</Heading>
-                    <Text fontFamily="Circular Std Book" fontWeight="500" fontSize="16">{post.description}</Text>
+                    <Heading fontFamily="Lato" fontWeight="700" fontSize="21">{post.title}</Heading>
+                    <Text fontFamily="Lato" fontWeight="400" fontSize="16">{post.description}</Text>
                     <Link href="https://chakra-ui.com" isExternal color="red">
                         Continue Reading
                     </Link>
